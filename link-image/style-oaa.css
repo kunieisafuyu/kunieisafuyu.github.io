@@ -1,0 +1,94 @@
+.back-next{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.back-next .cback{
+    border: 1px solid green;
+    background-color: rgb(59, 230, 156);
+    border-radius: 3px;
+}
+
+.back-next .cback a{
+    color: gray;
+}.back-next .cback:hover{
+    background-color: green;
+}
+
+.grip{
+    padding-top: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.produc{
+    display: flex;
+    justify-content: center;
+
+}
+
+.produc-img{
+    width: 50%;
+    flex:1;
+
+}
+
+.produc-img img{
+    width: 100%;
+    max-height: 360px;
+}
+
+.produc-img-1 .pro-1,h4,h5,h6 {
+    margin-left: 20px;
+}
+
+.sell{
+    display: block;
+}
+
+.sell-kg{
+    padding-bottom: 20px;
+    display:flex;
+}
+ .sell-kg p{
+     border: 1px solid green;
+     margin-left: 20px;
+     padding: 5px;
+     cursor: pointer;
+ }
+.sell-kg .kg,.sell .tyle{
+    border: 1px solid blue;
+}
+ 
+.sell-loca{
+    margin-left: 20px;
+}
+.sell-kg p:hover{
+    border-color: blue;
+}
+
+.sale{
+    margin-left: 20px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+.grsale,ul{
+    border: 1px green solid;
+    background-color:rgb(140, 241, 241);;
+}
+
+p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+h3,h4,h5,h6{
+    line-height: 24px;
+}
