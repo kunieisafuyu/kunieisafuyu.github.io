@@ -114,3 +114,90 @@ h3,h4,h5,h6{
 .infor-fix{
     padding-top: 40px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* test reponsiv */
+
+@media only screen and (max-width:768px){
+    html{
+        font-size: 50%;
+    }
+    .nav-2{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .grip{
+        padding-top: 40px;
+        max-width: 650px;
+        margin: auto;
+    }
+
+    .produc-img .fix{
+        height: auto;
+    }
+
+    .sell-loca{
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .sale{
+        margin-left: 10px;
+    }
+
+    .sell-kg{
+        padding-bottom: 10px;
+
+    }
+     .sell-kg p{
+  
+         margin-left: 10px;
+         padding: 2px;
+
+     }
+
+     ul{
+         display: flex;
+         justify-content: center;
+         list-style: none;
+     }
+}
