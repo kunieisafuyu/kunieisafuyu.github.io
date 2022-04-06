@@ -201,3 +201,19 @@ h3,h4,h5,h6{
          list-style: none;
      }
 }
+
+@media only screen and (max-width:450px){
+    div a img{
+        width: 100%;
+        border: 2px solid rgb(183, 232, 183);
+        border-radius: 5px;
+        box-shadow: 2px 2px rgb(156, 246, 246);
+        height: 300px;
+    }
+
+    .grip{
+        padding-top: 20px;
+        max-width: 400px;
+        margin: auto;
+    }
+}
