@@ -1,1 +1,1 @@
-# Deno kunieda
+# Deno kuniedanene
