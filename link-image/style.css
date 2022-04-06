@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    border: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    background-color: rgb(61, 242, 242);
+    
+}
+
+header{
+    max-width: 1200px;
+    margin: auto;
+    height: 50px;
+    background-color: rgb(59, 230, 156);
+    display: flex;
+    justify-content: space-between;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(237, 76, 76);
+}
+h1{
+
+    padding-left: 10px;
+}
+
+.nav-1{
+    padding-top: 12px;
+}
+.nav.nav-1 a{
+    padding-right: 10px;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+.contai-list{
+    max-width: 800px;
+    margin: auto;
+}
+
+div a img{
+    width: 100%;
+    border: 5px solid rgb(183, 232, 183);
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(156, 246, 246);
+    height: 485px;
+}
+
+div a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.magi {
+    padding-top: 30px;
+}
+
+h3 {
+    padding-bottom: 30px;
+    color: red;
+}
+
+.link-text :hover{
+    text-decoration: underline;
+}
+div a img:hover{
+    border-color: red;
+}
