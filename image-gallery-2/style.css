@@ -146,6 +146,13 @@ span{
         max-width: 800px;
         margin: auto;
     }
+    .icon-img{
+        flex: 0.7;
+    }
+
+    .icon-img-text{
+        flex: 8;
+    }
 
     .products{
         flex-wrap: wrap;
@@ -160,7 +167,7 @@ span{
         display: none;
     }
     .icon-img-text p{
-        margin-top: .7rem;
+        margin-top: 1.5rem;
     }
 
     .products-items-1 {
@@ -174,18 +181,25 @@ span{
         margin: auto;
     }
 
+    .icon-img{
+        flex: 0.9;
+    }
+
+    .icon-img-text{
+        flex: 6;
+    }
+
     .products{
         flex-direction: column;
         text-align: center;
         margin-top: 0;
     }
 
-
     h4{
         display: none;
     }
     .icon-img-text p{
-        margin-top: .2rem;
+        margin-top: 1.5rem;
     }
 
     .products-items-2 {
