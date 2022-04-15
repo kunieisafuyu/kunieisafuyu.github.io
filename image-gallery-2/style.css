@@ -167,3 +167,28 @@ span{
         margin-top: 1.2rem;
     }
 }
+
+@media (max-width:414px){
+    .overow{
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .products{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0;
+    }
+
+
+    h4{
+        display: none;
+    }
+    .icon-img-text p{
+        margin-top: .2rem;
+    }
+
+    .products-items-2 {
+        margin-top: 2rem;
+    }
+}
