@@ -43,6 +43,10 @@ html{
     cursor: pointer;
 }
 
+.back:hover{
+    background-color: orange;
+}
+
 .imger{
     flex: 0 0 40%;
 }
