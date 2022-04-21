@@ -1,0 +1,64 @@
+*{
+    margin: 0;padding: 0;
+    border: 0;box-sizing: border-box;
+    transition: all .3s ease;
+}
+
+html{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-home{
+    color: orange;
+    padding-top: 20px;
+}
+
+.rol{
+    max-width: 1080px;
+    margin: auto;
+}
+
+.flowers{
+    display: flex;
+    flex-direction: column;
+}
+
+.flowers-list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.flowers-list-item{
+    flex: 0 0 30%;
+
+
+
+}
+ul li img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgb(196, 184, 184);
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+p{
+    padding-top: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+.link:hover{
+    text-decoration: underline;
+}
