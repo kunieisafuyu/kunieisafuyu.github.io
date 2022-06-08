@@ -551,6 +551,10 @@ h5{
     .vivo{
         position: static;
     }
+    .top{
+        margin-top: 10px;
+        padding-top: 5px;
+    }
     .container{
        margin:0 40px;
     }
@@ -605,6 +609,11 @@ h5{
     .vivo{
         position: static;
     }
+    .top{
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
     .container{
        margin:0 25px;
     }
