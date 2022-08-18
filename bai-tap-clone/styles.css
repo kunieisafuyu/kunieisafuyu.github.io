@@ -1,0 +1,724 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+
+  transition: all 0.3s linear;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-family: sans-serif;
+}
+/* chia layout */
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col-1 {
+  width: 8.333333%;
+}
+
+.col-2 {
+  width: 16.666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.333333%;
+}
+
+.col-5 {
+  width: 41.666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.333333%;
+}
+
+.col-8 {
+  width: 66.666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.333333%;
+}
+
+.col-11 {
+  width: 91.666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/* code unity */
+
+.d-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.a-center{
+    align-items: center;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+.p-fixed{
+    position: fixed;
+}
+
+.a-self{
+    align-self: flex-end;
+}
+
+.f-colum{
+    flex-direction: column;
+}
+
+/* hover in layout */
+
+.hover-bright:hover{
+    filter: brightness(120%);
+    cursor: pointer;
+}
+.line-hi{
+    line-height: 12px;
+}
+
+
+.hover-color:hover {
+    border: 5px solid aqua;
+    background-color: aqua;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #585656c4;
+    cursor: pointer;
+}
+
+.icone{
+  width: 0;
+  height: 0;
+  border-left: 25px solid #fff ;
+  border-bottom: 17px solid transparent;
+  border-top: 17px solid transparent;
+  border-right: 25px solid transparent;
+  margin-left: 30px;
+}
+
+/* css  */
+.header{
+    position: fixed;
+    border-bottom: 1px solid violet;
+    background-color: white;
+    top:0;
+    left: 0;
+    right: 0;
+    padding-top: 15px;
+    z-index: 1000;
+}
+
+.butn-menu{
+    font-size: 25px;
+    margin-left: 15px;
+    display: none;
+    cursor: pointer;
+}
+
+.menu-list{
+    width: 250px;
+    background-color: white;
+    height:1000vh;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgb(84, 83, 83);
+    padding: 10px;
+    display: none;
+}
+
+.menu-list-logo img{
+    width: 150px;
+}
+.menu-list-logo{
+    padding-bottom: 40px;
+    background-color: white;
+}
+.icon-x{
+    background-color: white;
+    cursor: pointer;
+}
+.icon-sear{
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+    padding: 3px;
+}
+.input-menu{
+    border: 1px solid gray;
+    position: relative;
+}
+.input-menu input{
+    padding: 5px;
+    width: 200px;
+}
+
+.anime-icon-1{
+    display: flex;
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: 400;
+    align-items: center;
+    cursor: pointer;
+}
+.icon-mean-anime{
+    padding-left: 15px;
+}
+.icon-anime{
+    font-size: 18px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.lex{
+    line-height:20px;
+    text-decoration: none;
+    padding: 5px 10px 27px 10px;
+    border: 1px solid transparent;
+    font-size: 12px;
+    border-radius: 12px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 1px solid transparent;
+}
+
+.logo{
+   max-width: 150px;
+   cursor: pointer;
+}
+
+.link-iteam:hover .lex{
+    border: 1px solid violet;
+}
+.link-iteam:hover{
+    border: 1px solid transparent;
+}
+
+.navd{
+    margin-left: 20px;
+}
+
+
+.link-iteam{
+    margin-left: 10px;
+    border: 1px solid violet;
+    border-radius: 16px;
+
+}
+
+.help{
+    margin-left: auto;
+}
+
+.input{
+    border: 1px solid violet;
+    padding:10px 15px;
+    border-radius: 35px;
+    font-size: 12px;
+
+}
+input{
+    width:300px;
+    outline: none;
+}
+
+.zoom{
+    padding-bottom: 5px;
+}
+
+.searcher-icone{
+    right: 9px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.link-icone{
+    margin-right: 10px;
+    font-size: 25px;
+    background-color: transparent;
+    border: 5px solid rgba(238, 238, 238,1);
+    border-radius: 50%;
+    line-height: 1;
+    background-color:rgba(238, 238, 238,1);
+}
+
+p{
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+}
+
+h2{
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+h3{
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.menu-top{
+    top:100%;
+    left: 0;
+    display: none;
+    background-color: white;
+}
+.text{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0 5px 0;
+    background: linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0));
+}
+
+.menu-top{
+    border-top:1px solid violet ;
+    padding: 10px;
+    box-shadow: 0 4px 5px #ccc;
+    z-index: 1000;
+}
+
+.top{
+    margin-bottom: -10px;
+    padding-top: 70px;
+}
+.item{
+    margin: 0 5px;
+}
+
+.imger{
+    overflow: hidden;
+}
+
+
+.link-iteam:hover .menu-top{
+    display: block;
+}
+
+.text-sub{
+    padding: 10px 0 10px 10px;
+    bottom:0;
+    left:0;
+    right: 0;
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0))
+}
+
+.text-mean{
+    padding-left: 10px;
+}
+
+[class*='col-']{
+    padding:0 5px ;
+
+    padding-bottom: 10px;
+}
+
+.top{
+    margin-top: 20px;
+}
+.img-top{
+    padding-bottom: 10px;
+}
+
+.fix-img{
+    margin-top: -13px;
+}
+
+.esp-newer,
+.news-page,
+.flim-catton,
+.manga-watch,
+.memory,
+.movie-anime,
+.now-watch-st,
+.number-all,
+.all-anime{
+    margin-top: 20px;
+}
+
+h1{
+    padding-right: 20px;
+    font-weight: 400;
+    color: #333;
+}
+
+.icon-sub{
+    font-size: 20px;
+}
+
+.icon-play{
+    top:10px;
+    left: 10px;
+    display: none;
+}
+
+.text-sub-mean{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.6),rgba(0,0,0,.01));
+    padding: 10px;
+}
+
+h4,h6{
+    color: white;
+    line-height: 16px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.list-anime{
+    overflow: hidden;
+}
+
+.hover-scale:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.list-anime:hover .icon-play{
+    display: block;
+}
+.list-anime:hover .number-sub{
+    display: block;
+}
+
+.text-mean-img p{
+    color: #333;
+}
+
+.item-list{
+    margin-bottom: -10px;
+}
+
+.imgea{
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+.haver-boder{
+    border: 1px solid #333;
+    border-radius: 3px;
+    background-color: rgba(51, 51, 51, 0.603);
+    padding: 2px 5px;
+}
+
+.d-chap{
+    top:10px;
+    left: 10px;
+}
+
+.memory-img,
+.img-movie{
+    cursor: pointer;
+}
+
+.number-sub{
+    top:20px;
+    left: 90px;
+    padding: 4px 125px 4px 10px;
+    border: 1px solid #333;
+    background-color: rgba(51, 51, 51, 0.603);
+    display: none;
+}
+
+.name-anime{
+    padding: 10px 0 0 10px;
+}
+
+.number{
+    bottom: 0;
+    right: 0;
+    padding-right: 10px;
+}
+
+.linner-color{
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top, rgba(255, 166, 0, 0.126),rgba(255, 166, 0, 0.828));
+}
+
+.list-anime:hover img{
+    transform: scale(1.1);
+}
+.list-anime:hover .comming-soon{
+    display: none;
+}
+
+.comming-soon{
+    top:10px;
+    left: 10px;
+    padding: 10px;
+    padding-bottom: 13px;
+    border: 1px solid  rgba(216,15,22,.6);
+    border-radius: 50%;
+    background: rgba(216,15,22,.6);
+    text-align: center;
+}
+
+h5{
+    color: white;
+}
+
+.pad{
+    padding-top:5px;
+}
+
+.click-btn{
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.link-end{
+    text-decoration: none;
+    background-color: rgb(235, 43, 43);
+    padding: 5px 10px;
+    color: white;
+}
+
+@media (max-width:1024px) and  (min-width:768px){
+
+    .header,
+    .vivo{
+        position: static;
+    }
+    .top{
+        margin-top: 10px;
+        padding-top: 5px;
+    }
+    .container{
+       margin:0 40px;
+    }
+    .navd{
+        display: none;
+    }
+
+    .searcher{
+        display: none;
+    }
+    h2,h3,h4,h5,h6,p{
+        font-size:60%;
+    }
+    .icon{
+        width: 40px;
+        height: 40px;
+    }
+    .icone{
+        border-left: 20px solid #fff ;
+        border-bottom: 12px solid transparent;
+        border-top: 12px solid transparent;
+        border-right: 20px solid transparent;
+        margin-left: 25px;
+    }
+    .wrap-item{
+        flex-wrap: wrap;
+    }
+    .butn-menu{
+        display: block;
+    }
+
+    .col-30{
+       width: 50%;
+    }
+    .logo{
+        width: 120px;
+    }
+    .logo img{
+        font-size: 30px;
+    }
+    h4,h6{
+        color: white;
+        line-height: 12px;
+        padding-bottom: 3px;
+    }
+
+
+}
+
+@media (max-width:767px){
+    .header,
+    .vivo{
+        position: static;
+    }
+    .top{
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    .container{
+       margin:0 25px;
+    }
+    .navd{
+        display: none;
+    }
+    .top-dow{
+        display: none;
+    }
+
+    .searcher{
+        display: none;
+    }
+    h2,h3,h4,h5,h6,p{
+        font-size:60%;
+    }
+    .icon{
+        width: 40px;
+        height: 40px;
+    }
+    .icone{
+        border-left: 20px solid #fff ;
+        border-bottom: 12px solid transparent;
+        border-top: 12px solid transparent;
+        border-right: 20px solid transparent;
+        margin-left: 25px;
+    }
+    .wrap-item{
+        flex-wrap: wrap;
+    }
+
+    .col-30{
+       width: 100%;
+    }
+    .logo{
+        width: 120px;
+    }
+    .logo img{
+        font-size: 30px;
+    }
+    h4,h6{
+        color: white;
+        line-height: 12px;
+        padding-bottom: 3px;
+    }
+
+    .col-90{
+        width: 100%;
+    }
+    .img-top-1{
+        display: none;
+    }
+    .img-top{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .fix-img{
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .img-sub{
+        padding-top: 2px;
+        display: flex;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    h1{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .icon-sub{
+        font-size: 15px;
+    }
+
+    .w-50{
+        width: 50%;
+    }
+    .w-40{
+        width: 33.333333%;
+    }
+
+    .flex-row{
+        display: flex;
+    }
+    .butn-menu{
+        display: block;
+    }
+
+    .p-static{
+        position: static;
+    }
+    .name-anime{
+        font-size: 23px;
+    }
+
+    .name-anime h6{
+        color: #333;
+    }
+
+    .nummer-up{
+        color: rgb(18, 17, 15);
+        font-size: 30px;
+    }
+
+}
+
